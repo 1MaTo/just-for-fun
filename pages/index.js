@@ -5,6 +5,7 @@ export default function HomePage() {
 
     useEffect(() => {
         var audio = new Audio("/sparkle.mp3")
+        audio.volume = 0.1
         audio.play();
     },[])
 
