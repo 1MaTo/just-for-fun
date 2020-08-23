@@ -11,7 +11,7 @@ export default function HomePage() {
 
     return <div className={css.background}>
         <div className={css.backgroundImage}>
-            <div className={css.text}>Test</div>
+            <div className={css.text}>Test1</div>
         </div>
     </div>
 
